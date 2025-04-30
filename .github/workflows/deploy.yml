@@ -15,16 +15,19 @@ jobs:
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: 'stable'
+        flutter-version: '3.29.0'
+        channel: 'stable' # Keep channel stable for clarity, though version takes precedence
 
     - name: Install dependencies
       run: flutter pub get
+      working-directory: ./eenden_app
 
     - name: Build Web
       run: flutter build web
+      working-directory: ./eenden_app
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: build/web
+        publish_dir: eenden_app/build/web
