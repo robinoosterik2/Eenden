@@ -23,7 +23,7 @@ jobs:
       working-directory: ./eenden_app
 
     - name: Build Web
-      run: flutter build web
+      run: flutter build web --base-href /Eenden/
       working-directory: ./eenden_app
 
     - name: Deploy to GitHub Pages
