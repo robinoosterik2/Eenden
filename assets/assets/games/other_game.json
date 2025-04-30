@@ -1,0 +1,10 @@
+{
+  "id": "other_game",
+  "nameKey": "gameOtherTitle",
+  "descriptionKey": "gameOtherDescription",
+  "imagePath": "assets/images/Duck-512.png", 
+  "challenges": [
+    { "id": "other_c1", "textKey": "challengeOther1", "playerCount": 1, "points": 2 },
+    { "id": "other_c2", "textKey": "challengeOther2", "playerCount": 1, "points": 4 }
+  ]
+} 

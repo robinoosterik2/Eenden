@@ -1,0 +1,14 @@
+{
+  "id": "eenden",
+  "nameKey": "gameEendenTitle",
+  "descriptionKey": "gameEendenDescription",
+  "imagePath": "assets/images/Duck-512.png",
+  "challenges": [
+    { "id": "eenden_c1", "textKey": "challengeEenden1", "playerCount": 1, "points": 3 },
+    { "id": "eenden_c2", "textKey": "challengeEenden2", "playerCount": 1, "points": 2 },
+    { "id": "eenden_c3", "textKey": "challengeEenden3", "playerCount": 1, "points": 1 },
+    { "id": "eenden_c4", "textKey": "challengeEenden4", "playerCount": 1, "points": 4 },
+    { "id": "eenden_c5", "textKey": "challengeEenden5_2p", "playerCount": 2, "points": 5 },
+    { "id": "eenden_c6", "textKey": "challengeEenden6_2p", "playerCount": 2, "points": 3 }
+  ]
+} 
