@@ -1,0 +1,61 @@
+{
+  "@@locale": "en",
+  "mainTitle": "Eenden Game",
+  "selectLanguage": "Select Language",
+  "startGame": "Start Game",
+  "addPlayersTitle": "Add Players",
+  "playerNameHint": "Player Name",
+  "addPlayerButton": "Add Player",
+  "playersListTitle": "Players:",
+  "playerCount": "{count,plural, =1{1 player} other{{count} players}}",
+  "@playerCount": {
+    "description": "Indicates the number of players added",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "errorNameEmpty": "Player name cannot be empty.",
+  "errorNameNotLetter": "Name must start with a letter.",
+  "errorNameDuplicate": "'{name}' is already added.",
+  "@errorNameDuplicate": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "noPlayersYet": "No players added yet",
+  "addPlayersPrompt": "Add at least 2 players to start",
+  "gameSelectionTitle": "Select a Game",
+  "gameEendenTitle": "Eenden",
+  "gameEendenDescription": "The classic dice game. Be the first to get rid of all your ducks!",
+  "gameOtherTitle": "Another Game",
+  "gameOtherDescription": "A different, exciting game experience.",
+  "challengeEenden1": "<player1>, do 10 jumping jacks.",
+  "challengeEenden2": "<player1>, sing a song.",
+  "challengeEenden3": "<player1>, tell a joke.",
+  "challengeEenden4": "<player1>, name 5 countries.",
+  "challengeOther1": "<player1>, draw a picture.",
+  "challengeOther2": "<player1>, build a tower.",
+  "challengeEenden5_2p": "<player1> and <player2>, have a staring contest!",
+  "challengeEenden6_2p": "<player1>, give <player2> a compliment.",
+  "endGameButton": "End Game",
+  "leaderboardTitle": "Leaderboard",
+  "newQuizButton": "New Quiz",
+  "differentPlayersButton": "Different Players",
+  "settingsTitle": "Settings",
+  "customPointsLabelSetting": "Create custom label for 'Points'",
+  "customPointsLabelHint": "e.g., PushUps, Ducks, Tasks",
+  "pointsSingular": "Point",
+  "pointsPlural": "Points",
+  "customPointsLabelHelperText": "Leave empty to use the default term.",
+  "cancel": "Cancel",
+  "save": "Save",
+  "tapToEditLabelHint": "Tap to edit. Leave empty for default term.",
+  "termsAndConditions": "Terms & Conditions",
+  "privacyPolicy": "Privacy Policy",
+  "termsContentPath": "assets/legal/terms_en.md",
+  "privacyPolicyPath": "assets/legal/privacy_en.md"
+} 

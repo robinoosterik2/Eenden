@@ -1,0 +1,61 @@
+{
+  "@@locale": "nl",
+  "mainTitle": "Eenden Spel",
+  "selectLanguage": "Selecteer Taal",
+  "startGame": "Start Spel",
+  "addPlayersTitle": "Spelers Toevoegen",
+  "playerNameHint": "Spelernaam",
+  "addPlayerButton": "Voeg Speler Toe",
+  "playersListTitle": "Spelers:",
+  "playerCount": "{count,plural, =1{1 speler} other{{count} spelers}}",
+  "@playerCount": {
+    "description": "Geeft het aantal toegevoegde spelers aan",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "errorNameEmpty": "Spelernaam mag niet leeg zijn.",
+  "errorNameNotLetter": "Naam moet met een letter beginnen.",
+  "errorNameDuplicate": "'{name}' is al toegevoegd.",
+  "@errorNameDuplicate": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "noPlayersYet": "Nog geen spelers toegevoegd",
+  "addPlayersPrompt": "Voeg minimaal 2 spelers toe om te starten",
+  "gameSelectionTitle": "Selecteer een Spel",
+  "gameEendenTitle": "Eenden",
+  "gameEendenDescription": "Het klassieke dobbelspel. Wees de eerste die al je eenden kwijt is!",
+  "gameOtherTitle": "Een Ander Spel",
+  "gameOtherDescription": "Een andere, spannende spelervaring.",
+  "challengeEenden1": "<player1>, doe 10 jumping jacks.",
+  "challengeEenden2": "<player1>, zing een liedje.",
+  "challengeEenden3": "<player1>, vertel een mop.",
+  "challengeEenden4": "<player1>, noem 5 landen.",
+  "challengeOther1": "<player1>, maak een tekening.",
+  "challengeOther2": "<player1>, bouw een toren.",
+  "challengeEenden5_2p": "<player1> en <player2>, doe een staarwedstrijd!",
+  "challengeEenden6_2p": "<player1>, geef <player2> een compliment.",
+  "endGameButton": "Stop Spel",
+  "leaderboardTitle": "Scorebord",
+  "newQuizButton": "Nieuwe Quiz",
+  "differentPlayersButton": "Andere Spelers",
+  "settingsTitle": "Instellingen",
+  "customPointsLabelSetting": "Maak eigen label voor 'Punten'",
+  "customPointsLabelHint": "bijv. PushUps, Eenden, Taken",
+  "pointsSingular": "Punt",
+  "pointsPlural": "Punten",
+  "customPointsLabelHelperText": "Laat leeg om de standaard term te gebruiken.",
+  "cancel": "Annuleren",
+  "save": "Opslaan",
+  "tapToEditLabelHint": "Tik om te bewerken. Laat leeg voor standaard term.",
+  "termsAndConditions": "Algemene Voorwaarden",
+  "privacyPolicy": "Privacybeleid",
+  "termsContentPath": "assets/legal/terms_nl.md",
+  "privacyPolicyPath": "assets/legal/privacy_nl.md"
+} 
