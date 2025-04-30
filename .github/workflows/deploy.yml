@@ -32,8 +32,8 @@ jobs:
       working-directory: ./eenden_app
 
     - name: Build Flutter web
-      run: flutter build web
-      working-directory: ./eenden_app
+      run: flutter build web --base-href="/Eenden/"
+      working-directory: ./eenden_app    
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
