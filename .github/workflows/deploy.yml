@@ -2,28 +2,37 @@ name: Deploy Flutter Web to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main]  # Adjust if your default branch is named differently
+
+permissions:
+  contents: write  # Required for GITHUB_TOKEN to push to gh-pages
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
+    - name: Checkout repository
       uses: actions/checkout@v3
+
+    - name: Cache Flutter SDK
+      uses: actions/cache@v3
+      with:
+        path: ~/.flutter
+        key: ${{ runner.os }}-flutter-${{ hashFiles('**/pubspec.yaml') }}
 
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
         flutter-version: '3.29.3'
-        channel: 'stable' # Keep channel stable for clarity, though version takes precedence
+        channel: 'stable'
 
     - name: Install dependencies
       run: flutter pub get
       working-directory: ./eenden_app
 
-    - name: Build Web
-      run: flutter build web --base-href /Eenden/
+    - name: Build Flutter web
+      run: flutter build web
       working-directory: ./eenden_app
 
     - name: Deploy to GitHub Pages
