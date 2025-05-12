@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "challengeEenden1": "<player1>, do 10 jumping jacks.",
+  "challengeEenden2": "<player1>, sing a song.",
+  "challengeEenden3": "<player1>, tell a joke.",
+  "challengeEenden4": "<player1>, name 5 countries.",
+  "challengeOther1": "<player1>, draw a picture.",
+  "challengeOther2": "<player1>, build a tower.",
+  "challengeEenden5_2p": "<player1> and <player2>, have a staring contest!",
+  "challengeEenden6_2p": "<player1>, give <player2> a compliment."
+} 
